@@ -1,0 +1,7 @@
+{
+  "name": "poc_animation_css",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

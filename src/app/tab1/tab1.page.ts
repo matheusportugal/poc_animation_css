@@ -6,11 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-
+  searchBarView: boolean = false;
 
   constructor(
   ) {
   }
 
+  showSearchBar() {
+    this.searchBarView = !this.searchBarView;
+  }
 
 }

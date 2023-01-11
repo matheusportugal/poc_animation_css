@@ -1,14 +1,26 @@
 
-
-div {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(255, 238, 0);
-  animation-name: example;
-  animation-duration: 4s;
+.buttonSearchBar {
+  width: 65px;
+  height: 65px;
+  z-index: 1;
 }
 
-@keyframes example {
-  from {background-color: rgb(136, 0, 255);}
-  to {background-color: rgb(255, 0, 170);}
+ion-searchbar {
+  animation-name: extendSearchBar;
+  animation-duration: 1s;
+  width: 100%;
+  background-color: #3880ff;
+  border-radius: 20%; 
+  right: 40px;
+  height: 40px;
+
+}
+
+@keyframes extendSearchBar {
+  from {width: 0px}
+  to {width: 150%}
+}
+
+ion-row {
+  align-items: center;
 }
